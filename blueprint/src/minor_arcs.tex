@@ -1,0 +1,19 @@
+\chapter{Vaughan identity and minor-arc sums}
+
+\begin{theorem}{vaughan_identity_explicit_error}{0}
+Vaughan's identity decomposes the von Mangoldt exponential sum into a Type I and a Type II
+sum, with explicit remainder at most $N/U$.
+\lean{TernaryGoldbach.MinorArcs.vaughan_identity_explicit_error}
+\uses{vaughan_remainder_bound}
+\end{theorem}
+
+\begin{lemma}{vaughan_remainder_bound}{0}
+Bound on the Vaughan decomposition remainder.
+\lean{TernaryGoldbach.MinorArcs.vaughan_remainder_bound}
+\end{lemma}
+
+\begin{theorem}{minor_arc_exponential_sum_bound}{0}
+Explicit bound for the exponential sum on a minor arc, following arXiv:1312.7748.
+\lean{TernaryGoldbach.MinorArcs.minor_arc_exponential_sum_bound}
+\uses{vaughan_identity_explicit_error, explicit_perron_contour_tail}
+\end{theorem}
