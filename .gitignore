@@ -1,8 +1,0 @@
-/.lake/
-/build/
-*.olean
-*.ilean
-.trace/
-lake-manifest.json
-rust-sieve/target/
-rust-sieve/Cargo.lock
